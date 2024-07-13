@@ -1,0 +1,11 @@
+[package]
+name = "graspologic_test"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+graspologic_native = { git = "https://github.com/graspologic-org/graspologic-native.git", rev = "800ff46f3401ea1880053dd952173d7c824c9936", package = "network_partitions" }
+rand = "0.8"
+petgraph = "0.5"
+quick-xml = "0.22"
